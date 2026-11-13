@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#10243d" name="theme-color"/>
+  <title>
+   STACKLY | Your next trip starts here
+  </title>
+  <link href="common.css" rel="stylesheet"/>
+  <link href="landing.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main>
+   <section class="hero">
+    <div class="hero-inner">
+     <div class="hero-copy">
+      <span class="eyebrow">
+       EXPLORE WITH STACKLY
+      </span>
+      <h1>
+       Your next trip,
+       <br/>
+       <em>
+        starting here.
+       </em>
+      </h1>
+      <p>
+       Find a place that feels like you. Explore destinations, compare stays, and make room for something new.
+      </p>
+     </div>
+     <div class="hero-photo image-rotator" data-images="assets/home hero.webp|assets/destination/destination hero.webp|assets/hotels/hotel hero.webp">
+      <img alt="A beautiful travel destination" src="assets/home hero.webp"/>
+      <span>
+       ✦ Find your somewhere
+      </span>
+     </div>
+    </div>
+    <form class="search-panel" id="tripSearch">
+     <h2>
+      &telrec;　Where would you like to go?
+     </h2>
+     <div class="search-grid">
+      <label>
+       Destination
+       <input id="destination" placeholder="City or region" required=""/>
+      </label>
+      <label>
+       Check-in
+       <input id="checkin" required="" type="date"/>
+      </label>
+      <label>
+       Check-out
+       <input id="checkout" required="" type="date"/>
+      </label>
+      <label>
+       Guests
+       <select>
+        <option>
+         2 adults
+        </option>
+        <option>
+         1 adult
+        </option>
+        <option>
+         3 adults
+        </option>
+        <option>
+         4 adults
+        </option>
+        <option>
+         Family
+        </option>
+       </select>
+      </label>
+      <button class="btn" type="submit">
+       Search　&rarr;
+      </button>
+     </div>
+     <small>
+      Browse inspiration without an account. Sample listings and prices; no live availability.
+     </small>
+     <p aria-live="polite" class="feedback" id="searchMessage">
+     </p>
+    </form>
+   </section>
+   <section class="section white">
+    <div class="section-head">
+     <div>
+      <h2>
+       Popular destinations
+      </h2>
+      <p>
+       A few places to get your ideas going.
+      </p>
+     </div>
+     <a href="404.html">
+      Explore destinations &rarr;
+     </a>
+    </div>
+    <div class="destination-grid" id="destinations">
+     <article class="destination-card reveal">
+      <a class="card-photo image-rotator" data-images="assets/destination/thailand.webp|assets/destination/thailand hover.webp|assets/destination/travel inspiration.webp" href="#">
+       <img alt="Lisbon coast" src="assets/destination/thailand.webp"/>
+      </a>
+      <div>
+       <h3>
+        Lisbon, Portugal
+       </h3>
+       <p>
+        Hillside streets &amp; coastal day trips
+       </p>
+       <a href="404.html">
+        Explore destination &rarr;
+       </a>
+      </div>
+     </article>
+     <article class="destination-card reveal">
+      <a class="card-photo image-rotator" data-images="assets/destination/japan.webp|assets/destination/japan hover.webp|assets/hotels/paris hover.webp" href="#">
+       <img alt="Kyoto Japan" src="assets/destination/japan.webp"/>
+      </a>
+      <div>
+       <h3>
+        Kyoto, Japan
+       </h3>
+       <p>
+        Quiet gardens &amp; neighborhood walks
+       </p>
+       <a href="404.html">
+        Explore destination &rarr;
+       </a>
+      </div>
+     </article>
+     <article class="destination-card reveal">
+      <a class="card-photo image-rotator" data-images="assets/flights/paris.webp|assets/hotels/switserland hover.webp|assets/hotels/hotel intro.webp" href="#">
+       <img alt="Copenhagen harbor" src="assets/flights/paris.webp"/>
+      </a>
+      <div>
+       <h3>
+        Copenhagen, Denmark
+       </h3>
+       <p>
+        Harbor views &amp; design-led caf&eacute;s
+       </p>
+       <a href="404.html">
+        Explore destination &rarr;
+       </a>
+      </div>
+     </article>
+     <article class="destination-card reveal">
+      <a class="card-photo image-rotator" data-images="assets/destination/thailand hover.webp|assets/hotels/maldives hover img.webp|assets/flights/maldives.webp" href="#">
+       <img alt="Vancouver mountains" src="assets/destination/thailand hover.webp"/>
+      </a>
+      <div>
+       <h3>
+        Vancouver, Canada
+       </h3>
+       <p>
+        City comforts &amp; mountain air
+       </p>
+       <a href="404.html">
+        Explore destination &rarr;
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="section soft">
+    <div class="section-head">
+     <div>
+      <h2>
+       Find your kind of stay
+      </h2>
+      <p>
+       From a quiet guesthouse to a well-placed city base.
+      </p>
+     </div>
+     <a href="404.html">
+      Browse all stays &rarr;
+     </a>
+    </div>
+    <div class="stay-grid" id="stays">
+     <article class="stay-card reveal">
+      <a class="stay-photo image-rotator" data-images="assets/hotels/hotel intro.webp|assets/hotels/bali hover.webp|assets/hotels/hotel experience img.webp" href="#">
+       <img alt="Courtyard guesthouse" src="assets/hotels/hotel intro.webp"/>
+      </a>
+      <div class="stay-body">
+       <small>
+        Guesthouse
+       </small>
+       <h3>
+        Alfama Courtyard House
+       </h3>
+       <p>
+        Lisbon, Portugal
+       </p>
+       <p>
+        2 guests &middot; Wi-Fi &middot; Shared courtyard
+       </p>
+       <div class="price">
+        <b>
+         $120
+        </b>
+        <span>
+         USD / night &middot; sample price
+        </span>
+       </div>
+       <a class="outline-btn" href="404.html">
+        Explore stay
+       </a>
+      </div>
+     </article>
+     <article class="stay-card reveal">
+      <a class="stay-photo image-rotator" data-images="assets/hotels/paris hover.webp|assets/hotels/dubai hover img.webp|assets/hotels/manali hover.webp" href="#">
+       <img alt="Small boutique hotel" src="assets/hotels/paris hover.webp"/>
+      </a>
+      <div class="stay-body">
+       <small>
+        Small hotel
+       </small>
+       <h3>
+        Higashiyama Garden Stay
+       </h3>
+       <p>
+        Kyoto, Japan
+       </p>
+       <p>
+        2 guests &middot; Breakfast &middot; Garden access
+       </p>
+       <div class="price">
+        <b>
+         $145
+        </b>
+        <span>
+         USD / night &middot; sample price
+        </span>
+       </div>
+       <a class="outline-btn" href="404.html">
+        Explore stay
+       </a>
+      </div>
+     </article>
+     <article class="stay-card reveal">
+      <a class="stay-photo image-rotator" data-images="assets/hotels/maldives hover img.webp|assets/hotels/switserland hover.webp|assets/hotels/bali hover.webp" href="#">
+       <img alt="Harbor studio apartment" src="assets/hotels/maldives hover img.webp"/>
+      </a>
+      <div class="stay-body">
+       <small>
+        Apartment
+       </small>
+       <h3>
+        Harbor Studio
+       </h3>
+       <p>
+        Copenhagen, Denmark
+       </p>
+       <p>
+        2 guests &middot; Kitchen &middot; Near metro
+       </p>
+       <div class="price">
+        <b>
+         $160
+        </b>
+        <span>
+         USD / night &middot; sample price
+        </span>
+       </div>
+       <a class="outline-btn" href="404.html">
+        Explore stay
+       </a>
+      </div>
+     </article>
+    </div>
+    <p class="disclaimer">
+     Illustrative stays only. Prices are examples, not quotes; taxes and fees are not calculated.
+    </p>
+   </section>
+   <section class="section white">
+    <div class="section-head">
+     <div>
+      <h2>
+       Make the trip your own
+      </h2>
+      <p>
+       Simple ideas for the moments between check-in and check-out.
+      </p>
+     </div>
+     <a href="#experiences">
+      Explore experiences &rarr;
+     </a>
+    </div>
+    <div class="experience-grid" id="experiences">
+     <article class="experience-card reveal">
+      <a class="experience-photo image-rotator" data-images="assets/destination/travel inspiration.webp|assets/destination/japan.webp|assets/destination/japan hover.webp" href="#">
+       <img alt="Lisbon food and culture" src="assets/destination/travel inspiration.webp"/>
+      </a>
+      <div>
+       <small>
+        Lisbon &middot; Food &amp; culture
+       </small>
+       <h3>
+        Taste your way through Lisbon
+       </h3>
+       <p>
+        An idea for a slow afternoon of market stalls, local bakeries, and neighborhood caf&eacute;s.
+       </p>
+       <span>
+        Half-day inspiration &middot; Self-guided
+       </span>
+       <a href="404.html">
+        Explore this idea &rarr;
+       </a>
+      </div>
+     </article>
+     <article class="experience-card reveal">
+      <a class="experience-photo image-rotator" data-images="assets/destination/japan.webp|assets/destination/japan hover.webp|assets/hotels/paris hover.webp" href="#">
+       <img alt="Kyoto gardens" src="assets/destination/japan.webp"/>
+      </a>
+      <div>
+       <small>
+        Kyoto &middot; Outdoors &amp; culture
+       </small>
+       <h3>
+        A quieter side of Kyoto
+       </h3>
+       <p>
+        Plan a morning around temple gardens, riverside paths, and a tea break along the way.
+       </p>
+       <span>
+        Morning inspiration &middot; Easy walking
+       </span>
+       <a href="404.html">
+        Explore this idea &rarr;
+       </a>
+      </div>
+     </article>
+     <article class="experience-card reveal">
+      <a class="experience-photo image-rotator" data-images="assets/flights/maldives.webp|assets/hotels/maldives hover img.webp|assets/destination/thailand.webp" href="#">
+       <img alt="Harbor waterfront" src="assets/flights/maldives.webp"/>
+      </a>
+      <div>
+       <small>
+        Copenhagen &middot; City discovery
+       </small>
+       <h3>
+        Copenhagen by the water
+       </h3>
+       <p>
+        Connect harbor paths, small galleries, and a relaxed lunch with a view.
+       </p>
+       <span>
+        Day-trip inspiration &middot; At your pace
+       </span>
+       <a href="404.html">
+        Explore this idea &rarr;
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="process">
+    <div class="process-inner">
+     <h2>
+      From a first idea to a clearer plan
+     </h2>
+     <p>
+      How STACKLY works, in three simple steps.
+     </p>
+     <div class="steps">
+      <article>
+       <b>
+        01
+       </b>
+       <h3>
+        Choose a direction
+       </h3>
+       <p>
+        Start with a destination, your dates, and who&rsquo;s coming along. Just browsing is fine, too.
+       </p>
+      </article>
+      <article>
+       <b>
+        02
+       </b>
+       <h3>
+        Explore the possibilities
+       </h3>
+       <p>
+        Compare sample stays and discover things to do. Look for the details that matter to your trip.
+       </p>
+      </article>
+      <article>
+       <b>
+        03
+       </b>
+       <h3>
+        Shape your trip
+       </h3>
+       <p>
+        Build a shortlist of ideas. Check current details with the provider before making any plans.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section white benefits">
+    <h2>
+     A simpler way to start planning
+    </h2>
+    <div class="benefit-grid">
+     <article>
+      <h3>
+       The essentials, together
+      </h3>
+      <p>
+       Destination ideas, stay details, and local inspiration in one place.
+      </p>
+     </article>
+     <article>
+      <h3>
+       Details you can compare
+      </h3>
+      <p>
+       Clear amenities and sample nightly prices help you weigh your options.
+      </p>
+     </article>
+     <article>
+      <h3>
+       Room to explore
+      </h3>
+      <p>
+       Browse at your own pace, with no account needed to get started.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="testimonials">
+    <div class="section-head">
+     <div>
+      <h2>
+       A little perspective from travelers
+      </h2>
+      <p>
+       Sample testimonials for this concept &mdash; not real or verified traveler reviews.
+      </p>
+     </div>
+    </div>
+    <div class="testimonial-grid">
+     <article>
+      <small>
+       SAMPLE TESTIMONIAL
+      </small>
+      <p>
+       &ldquo;Seeing a few neighborhoods and stays together made it easier to decide what kind of trip I wanted.&rdquo;
+      </p>
+      <b>
+       Alex &middot; City-break traveler
+      </b>
+      <span>
+       Sample scenario: a weekend in Lisbon
+      </span>
+     </article>
+     <article>
+      <small>
+       SAMPLE TESTIMONIAL
+      </small>
+      <p>
+       &ldquo;I liked starting with a simple idea for the day, then leaving enough space to wander.&rdquo;
+      </p>
+      <b>
+       Sam &middot; Slow-travel enthusiast
+      </b>
+      <span>
+       Sample scenario: a first visit to Kyoto
+      </span>
+     </article>
+     <article>
+      <small>
+       SAMPLE TESTIMONIAL
+      </small>
+      <p>
+       &ldquo;The amenity details helped us talk through what we needed before making a shortlist.&rdquo;
+      </p>
+      <b>
+       Jordan &middot; Traveling with a partner
+      </b>
+      <span>
+       Sample scenario: a Copenhagen getaway
+      </span>
+     </article>
+    </div>
+   </section>
+   <section class="section white faq">
+    <h2>
+     A few things you might be wondering
+    </h2>
+    <p>
+     Good to know before you start exploring.
+    </p>
+    <div class="faq-list">
+     <details>
+      <summary>
+       Can I book a stay directly through STACKLY?
+       <b>
+        ＋
+       </b>
+      </summary>
+      <p>
+       This frontend concept is for browsing and inspiration. Contact the accommodation provider to confirm availability and make a reservation.
+      </p>
+     </details>
+     <details>
+      <summary>
+       Do I need an account to browse?
+       <b>
+        ＋
+       </b>
+      </summary>
+      <p>
+       No. You can explore destinations, sample stays, and trip ideas without creating an account.
+      </p>
+     </details>
+     <details>
+      <summary>
+       What do the sample nightly prices include?
+       <b>
+        ＋
+       </b>
+      </summary>
+      <p>
+       They are illustrative examples only and are not live quotes. Taxes, fees, and availability are not calculated.
+      </p>
+     </details>
+     <details>
+      <summary>
+       How can I choose a stay that suits my needs?
+       <b>
+        ＋
+       </b>
+      </summary>
+      <p>
+       Compare location, amenities, guest capacity, and the details that matter most to your trip.
+      </p>
+     </details>
+     <details>
+      <summary>
+       What should I do if I forget my password?
+       <b>
+        ＋
+       </b>
+      </summary>
+      <p>
+       Use the Forgot Password link on the sign-in page to see the reset-flow demo.
+      </p>
+     </details>
+    </div>
+   </section>
+   <section class="cta">
+    <div>
+     <small>
+      START TODAY
+     </small>
+     <h2>
+      Ready to start your next adventure?
+     </h2>
+     <p>
+      Join curious travelers exploring the world with STACKLY. Create your account in seconds.
+     </p>
+    </div>
+    <div>
+     <a class="btn btn-light" href="404.html">
+      Explore Stays
+     </a>
+     <a class="btn" href="support.html">
+      Contact Desk
+     </a>
+    </div>
+   </section>
+  </main>
+  <script src="common.js">
+  </script>
+  <script src="landing.js">
+  </script>
+ </body>
+</html>

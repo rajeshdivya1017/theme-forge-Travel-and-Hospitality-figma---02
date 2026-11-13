@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   STACKLY | Reset Link
+  </title>
+  <link href="common.css" rel="stylesheet"/>
+  <link href="auth.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main class="auth-shell">
+   <div class="auth-bg image-rotator" data-images="assets/hotels/hotel intro.webp|assets/booking/booking hero.webp|assets/about/about hero.webp">
+    <img alt="Travel destination" src="assets/hotels/hotel intro.webp"/>
+   </div>
+   <div class="auth-topnote">
+    <span>Reset Link</span>
+    <a class="auth-home-link" href="index.html" aria-label="Back to STACKLY home">← Back to Home</a>
+   </div>
+   <section class="auth-panel">
+    <h1>
+     Check your inbox
+    </h1>
+    <p>
+     If an account exists for this email, you&rsquo;ll receive a password reset link shortly.
+    </p>
+    <form id="authForm">
+     <div class="auth-notice">
+      <b>
+       Haven&rsquo;t received an email?
+      </b>
+      Check your spam folder and allow a few minutes. You can request another link after the countdown.
+     </div>
+     <button class="auth-submit" onclick="location.href='signin.html'" type="button">
+      Back to Sign In
+     </button>
+     <button class="auth-submit auth-disabled" disabled="" id="resendButton" style="margin-top:10px" type="button">
+      Resend link in 60s
+     </button>
+     <p class="auth-switch">
+      <a class="auth-link" href="forgot-password.html">
+       Use a different email
+      </a>
+     </p>
+    </form>
+    <div aria-live="polite" class="auth-message" id="authMessage">
+    </div>
+   </section>
+   <div class="auth-footer">
+    <a href="#">
+     Privacy
+    </a>
+    <a href="#">
+     Terms
+    </a>
+    <a href="support.html">
+     Help
+    </a>
+   </div>
+  </main>
+  <script src="common.js">
+  </script>
+  <script src="auth.js">
+  </script>
+ </body>
+</html>

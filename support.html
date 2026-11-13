@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   STACKLY | Support Desk
+  </title>
+  <link href="common.css" rel="stylesheet"/>
+  <link href="support.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main>
+   <section class="support-hero">
+    <div class="wrap">
+     <a class="support-home-link" href="index.html">
+      &larr; Back to Home
+     </a>
+     <small class="eyebrow-support">
+      ● GLOBAL CONCIERGE NETWORK &middot; 24/7 ACTIVE
+     </small>
+     <div class="support-title">
+      <div>
+       <h1>
+        Contact STACKLY Support Desk
+       </h1>
+       <p>
+        Have a question about your booking, host communication, or custom itinerary? Our team and verified regional concierge hubs are ready around the clock.
+       </p>
+      </div>
+      <div class="shield">
+       ♢
+       <span>
+        <b>
+         STACKLY Travel Shield
+        </b>
+        <small>
+         Active Booking Protection
+        </small>
+       </span>
+      </div>
+     </div>
+     <form class="help-search" id="helpSearch">
+      <input id="helpQuery" placeholder="&telrec;　Search help topics, booking IDs, cancellation policies, or FAQs..."/>
+      <button>
+       Find　&rarr;
+      </button>
+      <div class="topics">
+       Frequent Inquiries:
+       <button data-topic="Modify Reservation" type="button">
+        Modify Reservation
+       </button>
+       <button data-topic="Cancellation &amp; Refunds" type="button">
+        Cancellation &amp; Refunds
+       </button>
+       <button data-topic="Host Verification" type="button">
+        Host Verification
+       </button>
+       <button data-topic="Emergency Assistance" type="button">
+        ● Emergency Assistance
+       </button>
+      </div>
+     </form>
+     <p aria-live="polite" class="support-search-feedback" id="helpFeedback">
+     </p>
+    </div>
+   </section>
+   <section class="support-main">
+    <div class="wrap">
+     <div class="contact-guide">
+      <b>
+       How to reach our support team
+      </b>
+      <span>
+       For a written request, complete the message form below. For urgent travel help, use Priority Phone Support or the Emergency Traveler Hotline. Live Chat and Callback buttons show frontend demo responses.
+      </span>
+      <a href="#ticketForm">
+       Go to contact form &darr;
+      </a>
+     </div>
+     <div class="support-options">
+      <article class="support-option">
+       <div class="support-card-image image-rotator"
+        data-images="assets/contact/contact hero.webp|assets/flights/flight experience.webp|assets/hotels/hotel experience img.webp">
+        <img alt="Travel concierge assisting a guest" src="assets/contact/contact hero.webp"/>
+       </div>
+       <div class="option-top">
+        <label class="option-select">
+         <input aria-label="Select Priority Phone Support" class="option-check" type="checkbox"/>
+         <span class="checkmark">
+         </span>
+        </label>
+        <span>
+         ● Avg wait: 2 mins
+        </span>
+       </div>
+       <h2>
+        Live Concierge Chat
+       </h2>
+       <p>
+        Immediate messaging for in-transit travelers, check-in access pins, and last-mile directions.
+       </p>
+       <small>
+        ♢ Recommended for active same-day stays
+       </small>
+       <button class="support-button" data-action="chat">
+        Start Live Chat　▢
+       </button>
+      </article>
+      <article class="support-option">
+       <div class="support-card-image image-rotator"
+        data-images="assets/flights/flight experience.webp|assets/flights/flightd hero.webp|assets/booking/booking hero.webp">
+        <img alt="Premium flight and travel assistance" src="assets/flights/flight experience.webp"/>
+       </div>
+       <div class="option-top">
+        <label class="option-select">
+         <input aria-label="Select Support Ticket" class="option-check" type="checkbox"/>
+         <span class="checkmark">
+         </span>
+        </label>
+        <span>
+         Toll-Free Priority
+        </span>
+       </div>
+       <h2>
+        Priority Phone Support
+       </h2>
+       <p>
+        Direct voice desk for urgent lockbox overrides, flight delays, and instant booking re-routes.
+       </p>
+       <small>
+        +1 (800) 555-ROAM　 Ext: 7626
+       </small>
+       <button class="support-button pale" data-action="callback">
+        Request Callback　♧
+       </button>
+      </article>
+      <article class="support-option">
+       <div class="support-card-image image-rotator"
+        data-images="assets/hotels/hotel experience img.webp|assets/hotels/hotel hero.webp|assets/booking/booking cta.webp">
+        <img alt="Hotel and accommodation support" src="assets/hotels/hotel experience img.webp"/>
+       </div>
+       <div class="option-top">
+        <label class="option-select">
+         <input aria-label="Select Live Concierge Chat" class="option-check" type="checkbox"/>
+         <span class="checkmark">
+         </span>
+        </label>
+        <span>
+         SLA: &lt; 2 HR
+        </span>
+       </div>
+       <h2>
+        Submit a Support Ticket
+       </h2>
+       <p>
+        Complex inquiries regarding itemized VAT invoices, security deposit disputes, multi-leg vouchers.
+       </p>
+       <small>
+        ◉ Dedicated case officer assigned
+       </small>
+       <button class="support-button pale" data-action="ticket">
+        Open New Ticket　&nearrow;
+       </button>
+      </article>
+     </div>
+     <div class="support-columns">
+      <form class="ticket-form" id="ticketForm">
+       <small>
+        CASE FORMULATION
+       </small>
+       <h2>
+        Send Us a Message
+       </h2>
+       <div class="field-grid">
+        <label>
+         Inquiry Classification
+         <b>
+          *
+         </b>
+         <select required="">
+          <option value="">
+           Select inquiry
+          </option>
+          <option>
+           Existing Reservation
+          </option>
+          <option>
+           Cancellation &amp; Refund
+          </option>
+          <option>
+           Property / Host
+          </option>
+          <option>
+           Payment
+          </option>
+          <option>
+           Safety / Emergency
+          </option>
+         </select>
+        </label>
+        <label>
+         Booking ID (Optional)
+         <input placeholder="e.g. RM-84920"/>
+        </label>
+        <label>
+         Full Name
+         <b>
+          *
+         </b>
+         <input placeholder="Your full name" required=""/>
+        </label>
+        <label>
+         Email Address
+         <b>
+          *
+         </b>
+         <input placeholder="you@example.com" required="" type="email"/>
+        </label>
+       </div>
+       <fieldset>
+        <legend>
+         Urgency Tier
+        </legend>
+        <label>
+         <input checked="" name="urgency" type="radio" value="Standard"/>
+         Standard
+        </label>
+        <label>
+         <input name="urgency" type="radio" value="Priority"/>
+         Priority
+        </label>
+        <label>
+         <input name="urgency" type="radio" value="24h"/>
+         24h Check-in
+        </label>
+       </fieldset>
+       <label>
+        Subject Summary
+        <b>
+         *
+        </b>
+        <input placeholder="e.g. Requesting early luggage drop-off in Kyoto" required=""/>
+       </label>
+       <label>
+        Detailed Description
+        <b>
+         *
+        </b>
+        <textarea placeholder="Provide exact details regarding timestamps, property code, guest counts, and any direct discussions already conducted with your host..." required="" rows="5"></textarea>
+       </label>
+       <label>
+        Attachments (Optional)
+        <input accept="image/*,.pdf,.jpg,.png" class="file-input" id="attachments" multiple="" type="file"/>
+        <span class="upload-box" onclick="document.getElementById('attachments').click()">
+         ♧
+         <b>
+          Click to browse or drop receipts, vouchers, or photos
+         </b>
+         <small>
+          PDF, JPG, PNG up to 10MB per ticket
+         </small>
+         <em id="fileNames">
+         </em>
+        </span>
+       </label>
+       <label class="consent">
+        <input type="checkbox"/>
+        Send an authenticated ticket receipt and tracking link to my email
+       </label>
+       <div class="form-actions">
+        <button class="clear-button" type="reset">
+         Clear Form
+        </button>
+        <button class="support-button">
+         Send Message &amp; Create Ticket　➤
+        </button>
+       </div>
+       <p aria-live="polite" class="form-feedback" id="ticketFeedback">
+       </p>
+      </form>
+      <aside class="support-side">
+       <section class="side-panel">
+        <div class="side-head">
+         <h3>
+          ● My Active Tickets (1)
+         </h3>
+         <small>
+          Updated 14m ago
+         </small>
+        </div>
+        <div class="active-ticket">
+         <b>
+          Ticket #RM-84920
+          <span>
+           <a href="404.html">
+            In Review
+           </a>
+          </span>
+         </b>
+         <strong>
+          Amalfi Coast Villa Late Check-in Request
+         </strong>
+         <p>
+          Agent Marcus verified your late flight arrival with Villa Aurelia reception. Awaiting key lockbox code validation.
+         </p>
+         <small>
+          ◷ 3 hours ago (EST)
+          <a href="404.html">
+           View Thread &rarr;
+          </a>
+         </small>
+        </div>
+       </section>
+       <section class="side-panel">
+        <h3>
+         ◷ Regional Support Hubs
+        </h3>
+        <div class="hub">
+         <b>
+          Americas Hub (San Francisco)
+         </b>
+         <span>
+          24/7 Operations
+         </span>
+         <small>
+          West Coast &amp; Latin America Dispatch &middot; UTC -8
+         </small>
+        </div>
+        <div class="hub">
+         <b>
+          EMEA Hub (London &amp; Amsterdam)
+         </b>
+         <span>
+          08:00 &ndash; 20:30 CET
+         </span>
+         <small>
+          European Villas &amp; Nordic Stays &middot; UTC +1
+         </small>
+        </div>
+        <div class="hub">
+         <b>
+          APAC Hub (Tokyo &amp; Sydney)
+         </b>
+         <span>
+          09:00 &ndash; 21:00 JST
+         </span>
+         <small>
+          Ryokans, Islands &amp; Outback &middot; UTC +9
+         </small>
+        </div>
+       </section>
+       <section class="emergency">
+        <div>
+         <b>
+          SOS
+         </b>
+         <h3>
+          Emergency Traveler Hotline
+         </h3>
+        </div>
+        <p>
+         Incurred a critical property lockout, severe environmental advisory, or safety complication? Dial our global response coordinator instantly.
+        </p>
+        <strong>
+         +1 (888) 911-ROAM
+        </strong>
+        <span>
+         Priority 1
+        </span>
+       </section>
+      </aside>
+     </div>
+    </div>
+   </section>
+   <section class="knowledge">
+    <div class="wrap">
+     <div class="knowledge-head">
+      <div>
+       <small>
+        SELF-GUIDED RESOLUTION
+       </small>
+       <h2>
+        Knowledge Base &amp; Policy Index
+       </h2>
+      </div>
+      <a href="404.html">
+       Explore all 142 articles &rarr;
+      </a>
+     </div>
+     <div class="knowledge-grid" id="knowledgeCards">
+      <article>
+       <i>
+        ▣
+       </i>
+       <h3>
+        Bookings &amp; Payments
+       </h3>
+       <p>
+        ♧ Splitting group payments
+        <br/>
+        ♧ Invoice VAT tax breakdowns
+        <br/>
+        ♧ Accepted regional currencies
+       </p>
+       <a href="404.html">
+        View all 18 articles &rsaquo;
+       </a>
+      </article>
+      <article>
+       <i>
+        ♢
+       </i>
+       <h3>
+        Cancellations &amp; Safety
+       </h3>
+       <p>
+        ♧ 48-hour grace window rules
+        <br/>
+        ♧ Severe weather claim protocol
+        <br/>
+        ♧ STACKLY 100% Stay Guarantee
+       </p>
+       <a href="404.html">
+        View all 24 articles &rsaquo;
+       </a>
+      </article>
+      <article>
+       <i>
+        ⌂
+       </i>
+       <h3>
+        Host &amp; Property Standards
+       </h3>
+       <p>
+        ♧ Verified amenity audits
+        <br/>
+        ♧ Keyless lockbox protocols
+        <br/>
+        ♧ Noise &amp; community quiet hours
+       </p>
+       <a href="404.html">
+        View all 31 articles &rsaquo;
+       </a>
+      </article>
+      <article>
+       <i>
+        ▣
+       </i>
+       <h3>
+        Account &amp; Security
+       </h3>
+       <p>
+        ♧ Two-factor authentication (2FA)
+        <br/>
+        ♧ Password identity verification
+        <br/>
+        ♧ Data privacy &amp; GDPR removal
+       </p>
+       <a href="404.html">
+        View all 15 articles &rsaquo;
+       </a>
+      </article>
+     </div>
+    </div>
+   </section>
+  </main>
+  <div aria-atomic="true" aria-live="polite" class="toast-region" id="toastRegion">
+  </div>
+  <script src="common.js">
+  </script>
+  <script src="support.js">
+  </script>
+ </body>
+</html>

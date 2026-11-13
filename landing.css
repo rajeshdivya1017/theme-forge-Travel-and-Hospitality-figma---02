@@ -1,0 +1,68 @@
+.hero{padding:44px clamp(20px,5vw,70px) 34px;background:linear-gradient(125deg,#e8f0f4,#f7f6f1 54%,#e7f1ef)}.hero-inner{max-width:1250px;margin:auto;display:grid;grid-template-columns:1fr .8fr;gap:50px;align-items:center}.eyebrow{display:inline-block;background:#183b58;color:#fff;border-radius:30px;padding:8px 14px;font-size:9px;letter-spacing:.13em;font-weight:700}.hero h1{font:800 clamp(40px,5vw,66px)/1.06 Manrope;margin:19px 0 14px;letter-spacing:-.05em}.hero h1 em{font-style:normal;color:#277c82}.hero-copy p{max-width:460px;color:#647284;line-height:1.7;font-size:14px}.hero-photo{height:235px;border-radius:17px;box-shadow:var(--shadow)}.hero-photo span{position:absolute;bottom:17px;left:20px;color:#fff;font-size:12px;font-weight:700;text-shadow:0 2px 8px #000}.hero-photo:after{content:'';position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#061b2c99)}.search-panel{max-width:1250px;margin:34px auto 0;padding:20px 22px 16px;background:#fff;border:1px solid #dbe4e9;border-radius:11px;box-shadow:0 15px 35px #18354a10}.search-panel h2{font:700 15px Manrope;margin:0 0 14px}.search-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr 1fr auto;gap:11px;align-items:end}.search-grid label{font-size:10px;font-weight:700;display:grid;gap:7px}.search-grid input,.search-grid select{width:100%;height:40px;border:1px solid #d8dfe4;border-radius:5px;padding:0 10px;min-width:0;font-size:11px;background:white}.search-grid .btn{height:40px;padding:0 21px}.search-panel>small{display:block;color:#77818c;font-size:10px;margin-top:12px}.feedback{font-size:11px;color:#267b72;margin:6px 0 0;min-height:0}.section{padding:48px clamp(20px,5vw,70px)}.white{background:#fff}.soft{background:#f3f6f7}.section-head{max-width:1250px;margin:0 auto 22px;display:flex;align-items:end;justify-content:space-between;gap:20px}.section-head h2,.section h2,.testimonials h2{font:800 24px Manrope;margin:0 0 5px;letter-spacing:-.035em}.section-head p,.faq>p{font-size:12px;color:#77818c;margin:0}.section-head>a{font-size:11px;text-underline-offset:4px;white-space:nowrap}.destination-grid,.stay-grid,.experience-grid,.testimonial-grid{max-width:1250px;margin:auto;display:grid;gap:17px}.destination-grid{grid-template-columns:repeat(4,1fr)}.destination-card,.stay-card,.experience-card,.testimonial-grid article{border:1px solid #e0e5e8;border-radius:7px;overflow:hidden;background:white;transition:.28s}.destination-card:hover,.stay-card:hover,.experience-card:hover,.testimonial-grid article:hover{transform:translateY(-5px);box-shadow:0 16px 35px #122b401c;border-color:#a7c6c8}.card-photo{height:142px;display:block}.destination-card>div{padding:12px 13px 14px}.destination-card h3{font:700 13px Manrope;margin:0 0 5px}.destination-card p{font-size:10px;color:#6d7782;margin:0 0 18px}.destination-card>div>a,.experience-card>div>a{font-size:10px;text-underline-offset:3px}.stay-grid{grid-template-columns:repeat(3,1fr)}.stay-photo{height:160px;display:block}.stay-body{padding:13px}.stay-body small,.experience-card small{font-size:9px;color:#7b8792}.stay-body h3{font:700 14px Manrope;margin:5px 0}.stay-body p{font-size:10px;color:#6d7782;margin:5px 0}.price{display:flex;align-items:baseline;gap:8px;margin:11px 0}.price b{font:800 20px Manrope}.price span{font-size:9px;color:#77818c}.outline-btn{height:35px;border:1px solid #78828b;border-radius:4px;display:grid;place-items:center;text-decoration:none;font-size:10px;transition:.2s}.outline-btn:hover{background:var(--navy);color:white;border-color:var(--navy)}.disclaimer{max-width:1250px;margin:13px auto 0;font-size:9px;color:#7b858e}.experience-grid{grid-template-columns:repeat(3,1fr)}.experience-photo{height:145px;display:block}.experience-card>div{padding:13px}.experience-card h3{font:700 14px Manrope;margin:7px 0 13px}.experience-card p{font-size:11px;line-height:1.55;color:#6d7782;min-height:50px}.experience-card span{display:block;font-size:9px;color:#818b94;margin:15px 0}.process{padding:40px 20px;background:#edf1f3}.process-inner{max-width:1080px;margin:auto}.process h2{font:800 23px Manrope;margin:0}.process-inner>p{font-size:11px;color:#77818c}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:35px;margin-top:22px}.steps b{display:grid;place-items:center;width:36px;height:36px;border:1px solid #d2dbe0;background:white;border-radius:4px;font-size:12px}.steps h3,.benefit-grid h3{font:700 13px Manrope;margin:10px 0 6px}.steps p,.benefit-grid p{font-size:11px;line-height:1.6;color:#707b86;margin:0}.benefits{padding-left:clamp(25px,8vw,110px);padding-right:clamp(25px,8vw,110px)}.benefits h2{margin-bottom:24px}.benefit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:38px}.benefit-grid article{border-top:2px solid #29475b;padding-top:10px}.testimonials{padding:42px clamp(20px,5vw,70px);background:#f1f4f5}.testimonial-grid{grid-template-columns:repeat(3,1fr)}.testimonial-grid article{padding:15px}.testimonial-grid small{font-size:8px;font-weight:700;color:#687685}.testimonial-grid p{font-size:11px;line-height:1.6;min-height:50px}.testimonial-grid b,.testimonial-grid span{display:block;font-size:10px}.testimonial-grid span{color:#78838e;font-size:9px;margin-top:4px}.faq>h2{margin-bottom:5px}.faq>p{margin-bottom:20px}.faq-list{max-width:1250px;margin:auto}.faq details{border:1px solid #dce3e8;border-radius:4px;margin:7px 0;background:#fff}.faq summary{list-style:none;cursor:pointer;padding:15px 16px;font-size:11px;font-weight:600;display:flex;justify-content:space-between}.faq summary::-webkit-details-marker{display:none}.faq details[open] summary b{color:#2a8a8a;transform:rotate(45deg)}.faq details p{padding:0 16px 14px;margin:0;color:#6b7784;font-size:11px;line-height:1.6}.cta{margin:25px clamp(16px,4vw,55px) 28px;padding:27px 32px;background:linear-gradient(110deg,#172d43,#29465a);color:white;border-radius:7px;display:flex;align-items:center;justify-content:space-between;gap:20px}.cta small{font-size:8px;letter-spacing:.15em}.cta h2{font:800 21px Manrope;margin:5px 0}.cta p{font-size:10px;color:#c8d2dc;max-width:530px;margin:0}.cta>div:last-child{display:flex;gap:8px;flex-shrink:0}.cta .btn{font-size:10px;padding:11px 15px}@media(max-width:900px){.hero-inner{gap:25px}.search-grid{grid-template-columns:repeat(2,1fr)}.search-grid .btn{grid-column:span 2}.destination-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.hero{padding:32px 17px 25px}.hero-inner{grid-template-columns:1fr;gap:18px}.hero h1{font-size:42px}.hero-photo{height:190px}.search-panel{margin-top:20px;padding:16px 13px}.search-grid{grid-template-columns:1fr 1fr;gap:9px}.search-grid label:first-child,.search-grid .btn{grid-column:span 2}.section{padding:35px 17px}.section-head{align-items:start;flex-direction:column;gap:9px}.section-head h2,.section h2,.testimonials h2{font-size:21px}.destination-grid,.stay-grid,.experience-grid,.testimonial-grid{grid-template-columns:1fr}.card-photo{height:190px}.stay-photo,.experience-photo{height:190px}.steps,.benefit-grid{grid-template-columns:1fr;gap:20px}.process{padding:32px 18px}.cta{margin:16px 12px 22px;padding:23px 18px;align-items:start;flex-direction:column}.cta>div:last-child{flex-wrap:wrap}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+
+/* Subtle destination photography behind the landing hero */
+.hero {
+  position: relative;
+  isolation: isolate;
+  background: #eaf0f2;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(100deg, rgba(246, 250, 251, .94), rgba(246, 249, 248, .88)),
+    url("assets/home hero.webp") center 46% / cover no-repeat;
+}
+
+.hero-inner,
+.search-panel {
+  position: relative;
+}
+
+.hero h1,
+.hero-copy p,
+.search-panel,
+.search-panel label {
+  color: #17263a;
+}
+
+/* Full-page destination photography, inspired by the authentication screens. */
+body:has(main > .hero) {
+  background: #0c263b url("assets/home hero.webp") center / cover fixed no-repeat;
+}
+body:has(main > .hero)::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, rgba(5, 24, 40, .78), rgba(8, 47, 65, .58));
+  pointer-events: none;
+}
+.hero {
+  background: transparent;
+  color: #fff;
+  padding-top: 56px;
+}
+.hero::before {
+  background: linear-gradient(105deg, rgba(5, 24, 40, .80), rgba(5, 32, 48, .46)),
+    url("assets/home hero.webp") center 48% / cover no-repeat;
+}
+.hero h1,
+.hero-copy p { color: #fff; }
+.hero h1 em { color: #f2c879; }
+.hero-copy p { text-shadow: 0 2px 12px rgba(0,0,0,.55); }
+.eyebrow { background: rgba(8, 28, 43, .78); border: 1px solid rgba(255,255,255,.28); }
+.section.white,
+.section.soft,
+.testimonials,
+.process,
+.benefits,
+.faq { background: rgba(255,255,255,.94); backdrop-filter: blur(8px); }
+.search-panel { box-shadow: 0 18px 42px rgba(0,0,0,.22); }
+@media (max-width: 760px) {
+  body:has(main > .hero) { background-attachment: scroll; }
+}

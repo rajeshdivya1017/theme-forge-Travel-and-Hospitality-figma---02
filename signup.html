@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   STACKLY | Create Account
+  </title>
+  <link href="common.css" rel="stylesheet"/>
+  <link href="auth.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main class="auth-shell">
+   <div class="auth-bg image-rotator" data-images="assets/home hero.webp|assets/destination/destination hero.webp|assets/hotels/hotel hero.webp">
+    <img alt="Travel destination" src="assets/home hero.webp"/>
+   </div>
+   <div class="auth-topnote">
+    <span>Create Account</span>
+    <a class="auth-home-link" href="index.html" aria-label="Back to STACKLY home">← Back to Home</a>
+   </div>
+   <section class="auth-panel">
+    <h1>
+     Start with an account
+    </h1>
+    <p>
+     Create your STACKLY account. All fields are required.
+    </p>
+    <form id="authForm">
+     <label class="auth-field">
+      Full name
+      <input autocomplete="name" name="name" placeholder="Your full name" required=""/>
+     </label>
+     <label class="auth-field">
+      Email address
+      <input autocomplete="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     </label>
+     <label class="auth-field">
+      Password
+      <span class="password-wrap">
+       <input minlength="8" name="password" placeholder="Create a password" required="" type="password"/>
+       <button aria-label="Show password" class="password-toggle" type="button">
+        ◉
+       </button>
+      </span>
+      <small class="password-hint">
+       Use at least 8 characters, including a letter and a number.
+      </small>
+     </label>
+     <label class="auth-check">
+      <input required="" type="checkbox"/>
+      I agree to the Terms of Service and acknowledge the Privacy Policy.
+     </label>
+     <div style="height:14px">
+     </div>
+     <button class="auth-submit">
+      Create Account
+     </button>
+     <p class="auth-switch">
+      Already have an account?
+      <br/>
+      <a class="auth-link" href="signin.html">
+       Sign In
+      </a>
+     </p>
+    </form>
+    <div aria-live="polite" class="auth-message" id="authMessage">
+    </div>
+   </section>
+   <div class="auth-footer">
+    <a href="#">
+     Privacy
+    </a>
+    <a href="#">
+     Terms
+    </a>
+    <a href="support.html">
+     Help
+    </a>
+   </div>
+  </main>
+  <script src="common.js">
+  </script>
+  <script src="auth.js">
+  </script>
+ </body>
+</html>
